@@ -1,7 +1,4 @@
 package arrayofarrays;
-
-import org.w3c.dom.css.Rect;
-
 import java.util.Scanner;
 
 public class Rectangle {
