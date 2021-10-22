@@ -31,9 +31,11 @@ public class ArraysMain {
        return Arrays.equals(day,anotherDay);
     }
     public boolean wonLottery(int[] a, int[] b){
-        Arrays.sort(a);
-        Arrays.sort(b);
-        return Arrays.equals(a,b);
+        int[] acopy= Arrays.copyOf(a,a.length);
+        int[] bcopy= Arrays.copyOf(b,b.length);
+        Arrays.sort(acopy);
+        Arrays.sort(bcopy);
+        return Arrays.equals(acopy,bcopy);
     }
 
     public static void main(String[] args) {
