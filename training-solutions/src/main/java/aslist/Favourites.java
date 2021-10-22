@@ -16,6 +16,6 @@ public class Favourites {
         String favMovie=sc.nextLine();
         List<String> favouriteThings = new ArrayList<>(Arrays.asList(favAnimal,favMovie,favSinger));
         System.out.println("Your favourite things:");
-        System.out.println(favouriteThings.toString());
+        System.out.println(favouriteThings.toString()+" size: "+favouriteThings.size());
     }
 }
