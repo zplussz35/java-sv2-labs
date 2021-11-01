@@ -16,6 +16,17 @@ public class PrimitiveTypesMain {
 
         System.out.println(a+" "+b+" "+c+" "+d+" "+e+" "+f+" "+g+" "+h+" "+i+" "+j);
 
+        boolean k =true;
+        Boolean l = true;
+        boolean m = new Boolean(true);
+        Boolean n = new Boolean(true);
+        boolean o = Boolean.parseBoolean("trUe");
+        Boolean p = Boolean.parseBoolean("trUe");
+        boolean q = Boolean.parseBoolean("treU");
+        Boolean r = Boolean.parseBoolean("treU");
+
+        System.out.println(k+" "+l+" "+m+" "+n+" "+o+" "+p+" "+q+" "+r);
+
 
     }
 }
