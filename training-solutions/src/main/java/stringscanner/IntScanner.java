@@ -25,7 +25,7 @@ public class IntScanner {
 
     public static void main(String[] args) {
         IntScanner isc = new IntScanner();
-        String text="43;";
+        String text="43;100;150;250;99;101;230;112";
         System.out.println(isc.convertInts(text));
     }
 
