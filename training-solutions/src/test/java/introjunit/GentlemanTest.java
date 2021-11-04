@@ -11,6 +11,6 @@ public class GentlemanTest {
     @Test
     public void testSayHello(){
         assertThat(new Gentleman().sayHello("John Doe"),equalTo("Hello John Doe!"));
-        assertThat(new Gentleman().sayHello(""),equalTo("Hello Anonymous!"));
+        assertThat(new Gentleman().sayHello(null),equalTo("Hello Anonymous!"));
     }
 }

@@ -9,6 +9,6 @@ public class GentlemanTest {
     @Test
     void createTest(){
         assertEquals("Hello John Doe!",new Gentleman().sayHello("John Doe"));
-        assertEquals("Hello Anonymous!",new Gentleman().sayHello(""));
+        assertEquals("Hello Anonymous!",new Gentleman().sayHello(null));
     }
 }
