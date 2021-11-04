@@ -4,20 +4,23 @@ import java.util.Scanner;
 
 public class StringScanner {
     public static void main(String[] args) {
-        Scanner sc =new Scanner(System.in).useDelimiter(", ");
+        Scanner sc =new Scanner(System.in);
         System.out.print("Adjon meg egy mondatot: ");
-        String text;
-        while(sc.hasNextLine()){
-            System.out.print(sc.next()+" ");
+        String text=sc.nextLine();
+        Scanner wordScanner=new Scanner(text);
+        while(wordScanner.hasNext()){
+            System.out.print(wordScanner.next()+" ");
         }
 
-        Scanner sc2 =new Scanner(System.in).useDelimiter(", ");
-        System.out.print("Adjon meg egy másik mondatot: ");
-        String text2 = sc2.nextLine();
+        System.out.print("\nAdjon meg egy másik mondatot: ");
+        Scanner sc2 =new Scanner(System.in);
+        text=sc2.nextLine();
+        Scanner scannerByComma=new Scanner(text).useDelimiter(", ");
 
-        while(sc2.hasNext()){
 
-            System.out.print(sc2.next()+" ");
+        while(scannerByComma.hasNext()){
+
+            System.out.print(scannerByComma.next()+" ");
         }
     }
 }
