@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class ToConsonant {
+
     private final List<Character> MSH= Arrays.asList('b','c','d','f','g','h','j','k','l','m',
             'n','p','q','r','s','t','v','w','x','y','z',
             'B','C','D','F','G','H','J','K','L','M',
@@ -23,7 +24,6 @@ public class ToConsonant {
             }
         }
         return '0';
-
     }
 
     public static void main(String[] args) {
