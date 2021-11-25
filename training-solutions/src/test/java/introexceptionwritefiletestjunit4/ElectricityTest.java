@@ -17,7 +17,7 @@ public class ElectricityTest {
 
     @Rule
     public TemporaryFolder temporaryFolder = new TemporaryFolder();
-    
+
     @Test
     public void testWriteStreets() throws IOException {
 
