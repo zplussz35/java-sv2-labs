@@ -5,6 +5,9 @@ public class Trooper {
     private Position pos;
 
     public Trooper(String name) {
+        if(name.equals("")||name==null){
+            throw new IllegalArgumentException("Name must not be empty.");
+        }
         this.name = name;
         pos = new Position(0,0);
     }
@@ -17,6 +20,9 @@ public class Trooper {
         return pos;
     }
     public void changePosition(Position target){
+        if(target==null){
+            throw new IllegalArgumentException("The new position must not be null");
+        }
         this.pos=target;
     }
 

@@ -8,7 +8,7 @@ import java.util.Objects;
 public class HeadQuarter {
     private List<Trooper> troops = new ArrayList<>();
 
-    public List<Trooper> getTrooper(){
+    public List<Trooper> getTroopers(){
         return troops;
     }
     public void addTrooper(Trooper t){
