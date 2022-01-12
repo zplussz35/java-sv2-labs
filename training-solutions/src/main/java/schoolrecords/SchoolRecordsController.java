@@ -16,7 +16,7 @@ public class SchoolRecordsController {
         int input = 0;
         boolean run = true;
         while (run) {
-            System.out.println("1. Diákok nevének listázása\n" +
+            System.out.println("\n\n\n1. Diákok nevének listázása\n" +
                     "2. Diák név alapján keresése\n" +
                     "3. Diák létrehozása\n" +
                     "4. Diák név alapján törlése\n" +
@@ -26,7 +26,7 @@ public class SchoolRecordsController {
                     "8. Diákok átlagának megjelenítése\n" +
                     "9. Diák átlagának kiírása\n" +
                     "10. Diák tantárgyhoz tartozó átlagának kiírása\n" +
-                    "11. Kilépés");
+                    "11. Kilépés\n\n\n");
 
             System.out.print("Adja meg a műveletet: ");
             input = sc.nextInt();
