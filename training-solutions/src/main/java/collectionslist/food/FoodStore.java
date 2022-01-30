@@ -1,8 +1,9 @@
-package collectionlist.food;
+package collectionslist.food;
 
 import java.time.LocalDate;
 import java.util.LinkedList;
 import java.util.List;
+
 
 public class FoodStore {
     private List<Food> foods=new LinkedList<>();

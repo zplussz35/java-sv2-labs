@@ -1,4 +1,4 @@
-package collectionlist.food;
+package collectionslist.food;
 
 import java.time.LocalDate;
 
