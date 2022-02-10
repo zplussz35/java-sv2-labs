@@ -1,5 +1,7 @@
 package sorting;
 
+import java.util.Arrays;
+
 public class Income {
     private int[] incomes;
 
